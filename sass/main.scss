@@ -645,4 +645,29 @@
     background-color: #ffffff;
     padding: 20px;
   }
+
+  @media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
   
+  .site-header{
+    background-image: url("../images/bg-img-header@2x.png");
+  }
+
+  .hero{
+    background-image: url("../images/hero-img@2x.png"),
+      url("../images/bg-img-header@2x.png");
+  }
+
+  .hero::before{
+    background-image: url("../images/circle-img@2x.png");
+  }
+
+  .collection__wrap, .choose__wrap, .works__wrap, .footer{
+    background-image: url("../images/bg-img-header@2x.png");
+  }
+} 
