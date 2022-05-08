@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="site-header">
@@ -20,10 +19,10 @@
               <a class="header-link" href="./index.html"> HOME </a>
             </li>
             <li class="header-item">
-              <a class="header-link" href="#"> ABOUT US </a>
+              <a class="header-link" href="./about.html"> ABOUT US </a>
             </li>
             <li class="header-item">
-              <a class="header-link" href="#"> Create your plan </a>
+              <a class="header-link" href="./plan.html"> Create your plan </a>
             </li>
           </ol>
         </nav>
@@ -46,7 +45,11 @@
       <section class="commitment">
         <div class="commitment__wrap">
           <div class="container commitment__list">
-            <img class="commitment__img" src="./images/commitment-img.svg" alt="our commitment image" />
+            <img
+              class="commitment__img"
+              src="./images/commitment-img.svg"
+              alt="our commitment image"
+            />
             <div class="commitment__inner">
               <h2 class="commitment__tittle">Our commitment</h2>
               <p class="commitment__text">
@@ -69,10 +72,109 @@
       </section>
       <section class="uncompromis">
         <div class="uncompromis__wrap">
-          <div class="container uncompromis__inner">
-
+          <div class="container uncompromis__list">
+            <div class="uncompromis__inner">
+              <h2 class="uncompromis__tittle">Uncompromising quality</h2>
+              <p class="uncompromis__text">
+                Although we work with growers who pay close attention to all
+                stages of harvest and processing, we employ, on our end, a
+                rigorous quality control program to avoid over-roasting or
+                baking the coffee dry. Every bag of coffee is tagged with a
+                roast date and batch number. Our goal is to roast consistent,
+                user-friendly coffee, so that brewing is easy and enjoyable.
+              </p>
+            </div>
+            <img
+              class="uncompromis__img"
+              src="./images/about-img.png"
+              alt="Uncompromising quality"
+            />
           </div>
         </div>
+      </section>
+      <section class="our">
+        <div class="our__wrap">
+          <div class="container">
+            <h2 class="our__tittle">Our headquarters</h2>
+            <ol class="our__list">
+              <li class="our-item">
+                <img
+                  class="our-item__img"
+                  src="./images/united-kingdom.svg"
+                  alt="united kingdom"
+                />
+                <h3 class="our-item__tittle">United Kingdom</h3>
+                <p class="our-item__text text1">
+                  68 Asfordby Rd Alcaston SY6 1YA +44 1241 918425
+                </p>
+              </li>
+              <li class="our-item">
+                <img
+                  class="our-item__img"
+                  src="./images/canada.svg"
+                  alt="canada"
+                />
+                <h3 class="our-item__tittle">canada</h3>
+                <p class="our-item__text text2">
+                  1528 Eglinton Avenue Toronto Ontario M4P 1A6 +1 416 485 2997
+                </p>
+              </li>
+              <li class="our-item">
+                <img
+                  class="our-item__img"
+                  src="./images/australia.svg"
+                  alt="australia"
+                />
+                <h3 class="our-item__tittle">australia</h3>
+                <p class="our-item__text text3">
+                  36 Swanston Street Kewell <br> Victoria <br> +61 4 9928 3629
+                </p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <div class="footer__wrap">
+        <div class="container footer__inner">
+          <a class="logo-link" href="./index.html">
+            <img src="./images/site-logo.svg" alt="Site logo" />
+          </a>
+          <nav class="footer__nav">
+            <ol class="header-list">
+              <li class="header-item header-item-first">
+                <a class="header-link" href="./index.html"> HOME </a>
+              </li>
+              <li class="header-item">
+                <a class="header-link" href="./about.html"> ABOUT US </a>
+              </li>
+              <li class="header-item">
+                <a class="header-link" href="./plan.html"> Create your plan </a>
+              </li>
+            </ol>
+          </nav>
+          <nav class="footer__nav">
+            <ol class="header-list">
+              <li class="header-item header-item-first">
+                <a class="header-link" href="./index.html"> 
+                  <img src="./images/fb-icon.svg" alt="facebook"> 
+                </a>
+              </li>
+              <li class="header-item">
+                <a class="header-link" href="#"> 
+                  <img src="./images/tw-icon.svg" alt="twitter">
+                </a>
+              </li>
+              <li class="header-item">
+                <a class="header-link" href="#">
+                  <img src="./images/ins-icon.svg" alt="instagram">
+                </a>
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

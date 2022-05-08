@@ -1,0 +1,230 @@
+/*----------------------------ABOUT LIST-----------------------  */
+
+.about-hero {
+  position: relative;
+  padding: 150px 0 190px 100px;
+  background-image: url("../images/about-us-img.png"),
+    url("../images/bg-img-header.png");
+  background-repeat: no-repeat;
+  background-size: 710px 596px, 100% 100%;
+  background-blend-mode: normal, overlay;
+  background-position: calc(50% + 405px) top, center center;
+  background-color: #f3d7b7;
+}
+
+.about-hero::before {
+  position: absolute;
+  top: -65px;
+  left: calc(50% - 18px);
+  display: block;
+  width: 160px;
+  height: 160px;
+  background-image: url("../images/circle-img.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: brand 1s linear;
+  content: "";
+}
+
+.about-hero-inner {
+  width: 372px;
+  display: block;
+  margin-left: 50px;
+}
+
+/* -----------------------ABOUT SECTION COMMITNENT------------------- */
+
+.commitment {
+  position: relative;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.commitment::before {
+  position: absolute;
+  top: 70px;
+  left: calc(50% - 900px);
+  display: block;
+  width: 502px;
+  height: 400px;
+  background-image: url("../images/background-1st.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+}
+
+.commitment__wrap {
+  background-image: url("../images/bg-img-header.png");
+  min-height: 740px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-blend-mode: overlay;
+  background-color: #f8f8f2;
+}
+
+.commitment__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.commitment__img {
+  display: inline-block;
+  margin: 160px 0px 0px 165px;
+}
+
+.commitment__inner {
+  display: inline-block;
+  margin-top: 160px;
+  margin-left: 185px;
+}
+
+.commitment__text {
+  width: 88%;
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+}
+
+.commitment__tittle {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  font-variant: small-caps;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.commitment__text {
+  font-weight: 400;
+  font-size: 18px;
+  color: #333333;
+}
+
+/* ---------------ABOUT UNCOMPROMIS SECTION--------------- */
+
+.uncompromis {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.uncompromis__wrap {
+  display: block;
+  margin-top: 60px;
+  background-image: url("../images/bg-img-header.png");
+  min-height: 510px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-blend-mode: overlay;
+  background-color: #c99b67;
+}
+
+.uncompromis__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.uncompromis__tittle {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  font-variant: small-caps;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.uncompromis__inner {
+  width: 639px;
+  margin: 100px;
+}
+
+.uncompromis__text {
+  margin-top: 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.uncompromis__img {
+  margin-top: -80px;
+}
+
+// ------------SECTION OUR-----------
+
+.our {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.our__wrap {
+  background-image: url("../images/bg-img-header.png");
+  min-height: 685px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-blend-mode: overlay;
+  background-color: #0a775f;
+}
+
+.our__tittle {
+  padding-top: 50px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  font-variant: small-caps;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.our__list {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+
+.our-item {
+  width: 433px;
+  height: 396px;
+  padding: 45px 55px 40px 20px;
+  background-color: #f8f8f2;
+}
+
+.our-item__img {
+  margin-left: 258px;
+}
+
+.our-item__tittle {
+  width: 65%;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  font-variant: small-caps;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.our-item__text {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #333333;
+}
+
+.text1{
+  width: 40%;
+}
+
+.text2{
+  width: 40%;
+}
+
+.text3{
+  width: 40%;
+}
